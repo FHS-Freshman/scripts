@@ -4,7 +4,7 @@ os: [win, linux]
 verbose: true
 files:
   - https://raw.githubusercontent.com/FHS-Freshman/scripts/refs/heads/main/test1.py # regular link
-  - git:FHS-Freshman/scripts/main/test1.py # git:{username}/{repo}/{branch}/{file}
+  - git:FHS-Freshman/scripts/main/test2.py # git:{username}/{repo}/{branch}/{file}
 order:
   - Test1
   - Test2
