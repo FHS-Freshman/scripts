@@ -1,0 +1,10 @@
+name: testLime
+description: This list is used to test the functionality of the lime scripting engine.
+os: [win, linux]
+verbose: true
+files:
+  - https://raw.githubusercontent.com/FHS-Freshman/scripts/refs/heads/main/test1.py # regular link
+  - git:FHS-Freshman/scripts/test1.py # git link1!11!!!11
+order:
+  - Test1
+  - Test2
